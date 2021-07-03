@@ -5,6 +5,7 @@ import sys
 import requests
 from tqdm import tqdm
 
+# --download_dir models/s --model s --ckpt 1000000 --model s --ckpt 1000000
 def parse_arguments():
     parser = argparse.ArgumentParser()
 
